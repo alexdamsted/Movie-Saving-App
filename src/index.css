@@ -1,0 +1,320 @@
+/* Autofill styling */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgb(101, 102, 136) inset !important;
+  -webkit-text-fill-color: rgb(185, 187, 222) !important;
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+/* clears the ‘X’ from Chromium browsers */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+.about-page {
+  color: rgb(185, 187, 222);
+}
+.help-page {
+  color: rgb(185, 187, 222);
+}
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  padding-bottom: 45px;
+}
+
+/* Carousel title text animation */
+.loved-title {
+  color: rgb(185, 187, 222);
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Carousel title text animation end */
+
+.carousel-cards {
+  background-color: rgb(26, 26, 75);
+  padding-top: 15px;
+  margin-bottom: 50px;
+}
+
+.love-card:hover .love-card-img-overlay {
+  visibility: visible;
+}
+
+.love-card-img-overlay {
+  visibility: hidden;
+}
+
+.love-card:hover .love-card-img {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.love-card:hover {
+  transform: scale(0.95);
+}
+
+.love-card-img {
+  transition: transform 0.5s;
+  border-radius: 25px;
+}
+.love-card {
+  height: auto 220px;
+  width: 150px;
+  transition: transform 0.5s;
+  border: 0;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.trash-love-append:hover {
+  transform: scale(1.2);
+  color: rgb(255, 79, 79);
+}
+
+.remove-love-button {
+  margin-top: 65px;
+  margin-left: 32px;
+}
+
+.trash-love-append {
+  transition: transform 0.1s;
+  color: rgb(233, 17, 17);
+  padding: 0;
+}
+
+.search-row {
+  padding-top: 15px;
+  padding-bottom: 8px;
+  background-color: rgb(37, 37, 83);
+}
+
+.nav-brand {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  color: rgb(185, 187, 222);
+}
+
+.nav-text a {
+  margin-right: 40px;
+  color: rgb(185, 187, 222);
+  text-decoration: none;
+}
+.nav-text a:hover {
+  color: rgb(216, 216, 216);
+}
+.nav-text {
+  display: flex;
+  align-items: center;
+  color: rgb(185, 187, 222);
+}
+
+.trash-append:hover {
+  transform: scale(1.2);
+  color: rgb(241, 241, 241);
+}
+
+.trash-append {
+  transition: transform 0.1s;
+  color: rgb(174, 174, 174);
+  padding: 0;
+}
+
+.love-append:hover {
+  transform: scale(1.2);
+  color: rgb(240, 109, 129);
+}
+
+.love-append {
+  padding: 0;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  transition: transform 0.1s;
+  color: rgb(216, 156, 165);
+}
+
+.compacted-search-results {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(121, 122, 159);
+}
+
+.extended-link:hover {
+  color: rgb(185, 187, 222) !important;
+}
+
+.extended-link {
+  text-decoration: none !important;
+}
+
+.compacted-link:hover {
+  color: rgb(185, 187, 222) !important;
+}
+
+.compacted-link {
+  text-decoration: none !important;
+}
+
+.add-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Remove blue shadow onclick of add button */
+.btn-append {
+  box-shadow: none !important;
+}
+
+.add-btn {
+  transition: transform 0.2s;
+  color: rgb(185, 187, 222) !important;
+}
+
+::placeholder {
+  color: rgb(185, 187, 222) !important;
+}
+
+.search-input-group {
+  background-color: rgb(101, 102, 136);
+}
+
+.transparent:focus {
+  box-shadow: none;
+}
+
+.transparent {
+  color: rgb(185, 187, 222) !important;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent !important;
+}
+
+.list-group-compacted {
+  color: rgb(101, 102, 136) !important;
+}
+
+.extended-results-card:hover {
+  transform: scale(1.03);
+}
+
+.extended-results-card {
+  transition: transform 0.2s;
+}
+
+.view-text a {
+  color: rgb(101, 102, 136);
+}
+
+.view-text {
+  color: rgb(101, 102, 136);
+}
+
+.search-title {
+  color: rgb(101, 102, 136);
+}
+
+.rec .rec-arrow {
+  /* Keeps the carousel arrows center aligned with its children */
+  /* margin-top: 30px;
+  margin-bottom: auto; */
+  /* ------------------------------ */
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+  color: rgb(101, 102, 136);
+}
+
+.rec .rec-arrow:hover:enabled {
+  background-color: transparent !important;
+  color: rgb(185, 187, 222) !important;
+  box-shadow: none !important;
+}
+
+.rec .rec-arrow:focus:enabled {
+  background-color: transparent !important;
+  color: rgb(185, 187, 222) !important;
+  box-shadow: none !important;
+}
+
+.rec-carousel-item:focus:enabled {
+  outline: none;
+}
+
+.rec .rec-dot {
+  display: none;
+}
+
+body {
+  background-color: rgb(19, 19, 55);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-cards {
+    display: none;
+  }
+
+  .nav-brand {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-text {
+    justify-content: center;
+    align-items: center;
+  }
+}
