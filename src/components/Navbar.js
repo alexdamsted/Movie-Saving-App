@@ -11,7 +11,7 @@ class Navbar extends Component {
       <Row className="search-row">
         <Col sm={{ size: 3, offset: 2 }}>
           <div className="nav-brand">
-            <h5>Save For Later App</h5>
+            <h5>Movie Saving App</h5>
           </div>
         </Col>
         <Col sm={{ size: 3, offset: 2 }}>

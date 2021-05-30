@@ -18,9 +18,9 @@ class Help extends Component {
           <p>
             1. Search for a show or movie that you want to watch sometime in the
             future (only full valid titles will be displayed, so be 100%
-            accurate in your serach).
+            accurate in your search).
           </p>
-          <p>2. Click the (+) button to add your search to your list below.</p>
+          <p>2. Click the (+) button to add your search to your list.</p>
           <p>
             3. Select either the compacted or extended view to see varying
             amounts of information about your saved shows/movies.

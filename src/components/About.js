@@ -13,8 +13,8 @@ class About extends Component {
           <h5>About</h5>
           <br />
           <p>
-            The <b>Save For Later App</b> is a project made by Alex from{" "}
-            <a href="#">ajdaprogramming.nz</a>
+            The <b>Movie Saving App</b> is a project made by Alex from{" "}
+            <a href="www.ajda.nz">ajda.nz</a>
           </p>
           <p>
             It's built with React js, Reactstrap/Bootstrap, and the HTML Web
@@ -35,9 +35,8 @@ class About extends Component {
           <p>
             1. I'd like to have enabled users to dynamically get results back as
             they search for a movie/show. However, to my knowledge even paid
-            movie/show API's don't provide a way for developers to get long
-            lists of data to query from. And so, this app can only allow
-            querying for one data element at a time.
+            movie/show API's don't provide a way to do this. And so, this app
+            can only allow querying for one data element at a time.
           </p>
           <p>
             2. Users have to be 100% specific with their search due to current
