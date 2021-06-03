@@ -13,8 +13,11 @@ class About extends Component {
           <h5>About</h5>
           <br />
           <p>
-            The <b>Movie Saving App</b> is a project made by Alex from{" "}
-            <a href="www.ajda.nz">ajda.nz</a>
+            The <b>Movie Saving App</b> is an early CRA project made by Alex
+            from{" "}
+            <a href="https://www.ajda.nz/" target="_blank" rel="noopener">
+              ajda.nz
+            </a>
           </p>
           <p>
             It's built with React js, Reactstrap/Bootstrap, and the HTML Web
