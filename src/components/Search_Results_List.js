@@ -40,7 +40,6 @@ class Search_Results_List extends Component {
                 />
               </div>
             ))}
-            ;
           </Col>
         </Row>
       );

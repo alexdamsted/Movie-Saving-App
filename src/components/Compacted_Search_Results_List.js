@@ -40,7 +40,6 @@ class Compacted_Search_Results_List extends Component {
                 />
               </div>
             ))}
-            ;
           </Col>
         </Row>
       );
